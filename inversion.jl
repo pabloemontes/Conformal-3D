@@ -2,8 +2,8 @@
 #import Pkg; 
 #Pkg.activate("Conf_Fluids")
 #Pkg.add("Symbolics")
-using Symbolics
-using StaticArrays
+#using Symbolics
+#using StaticArrays
 using LinearAlgebra
 
 include("auxfunctions.jl")

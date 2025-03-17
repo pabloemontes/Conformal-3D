@@ -7,7 +7,7 @@ function create_initial_data(initial_data, sol, pars)
     dz = Lz/O
     println("Lx = $Lx, Ly = $Ly, Lz = $Lz")
 
-    A = 0.4
+    A = 40.0 #0.4
     ω = 5
     δ = 0.1
     println("Initializing data...")
